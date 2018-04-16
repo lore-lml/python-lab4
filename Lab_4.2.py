@@ -5,7 +5,7 @@ import mysql.connector
 updater = Updater("598486728:AAHxLy96_9grf-0qx7Kfmnjr06I8d8-XnmA")
 dp = updater.dispatcher
 
-conn = mysql.connector.connect(user='root', password='asdf12345', host='localhost', database='tasks')
+conn = mysql.connector.connect(user='root', password='', host='localhost', database='tasks')
 
 
 def start(bot,update):
